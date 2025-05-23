@@ -1,0 +1,188 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "application",
+					"jsonFile" : "directory-application-Debug-42f45a6354a6cfac8278.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "application",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "wrapper",
+					"jsonFile" : "directory-wrapper-Debug-230ceb64303127ee682a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "wrapper",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "glframework",
+					"jsonFile" : "directory-glframework-Debug-03d90da69caf02abf969.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "glframework",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "imgui",
+					"jsonFile" : "directory-imgui-Debug-604fb254dcdaaa3822f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "imgui",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "minecraft",
+					"jsonFile" : "directory-minecraft-Debug-77ccfeba5b0173bf9141.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "minecraft",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "OpenGL_MC",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL_MC::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL_MC-Debug-8a0349ff60ec30c549d1.json",
+					"name" : "OpenGL_MC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "app::@8badf0d542dc2e21c899",
+					"jsonFile" : "target-app-Debug-98c108458189debcf377.json",
+					"name" : "app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fw::@60be4de9c07dfc5bbca6",
+					"jsonFile" : "target-fw-Debug-087c857da02b594360a7.json",
+					"name" : "fw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "imgui::@45ca6dacf63e9879b888",
+					"jsonFile" : "target-imgui-Debug-f0f1449079cf13b4f25a.json",
+					"name" : "imgui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "mc::@f46ab39760bcdab2d2b0",
+					"jsonFile" : "target-mc-Debug-c55c1a10fc8847a802b3.json",
+					"name" : "mc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "wrapper::@cfb3dd9ac32c2b8e43a8",
+					"jsonFile" : "target-wrapper-Debug-d15445dcee28a9db890e.json",
+					"name" : "wrapper",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/CLion_Code/OpenGL_MC/cmake-build-debug",
+		"source" : "D:/CLion_Code/OpenGL_MC"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
