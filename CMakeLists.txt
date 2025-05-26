@@ -10,11 +10,12 @@ file(COPY ${ASSETS} DESTINATION ${CMAKE_BINARY_DIR})
 
 add_definitions(-DDEBUG)
 
-set(GL_Dir D:/CLion_Code/OpenGL_MC/thirdParty) #目录名称
-add_executable(OpenGL_MC ${GL_Dir}/src/glad.c main.cpp)
+set(GL_Dir ${CMAKE_CURRENT_SOURCE_DIR}/thirdParty)
+
+add_executable(OpenGL_Minecraft ${GL_Dir}/src/glad.c main.cpp)
 add_compile_definitions(_GLIBCXX_USE_CXX11_ABI=1)
 
-INCLUDE_DIRECTORIES(${GL_Dir}/include) # 头文件和外部库的位置
+INCLUDE_DIRECTORIES(${GL_Dir}/include)
 link_directories(${GL_Dir}/lib)
 
 add_subdirectory(application)
@@ -23,4 +24,4 @@ add_subdirectory(glframework)
 add_subdirectory(imgui)
 add_subdirectory(minecraft)
 
-target_link_libraries(OpenGL_MC ${GL_Dir}/lib/glfw3.dll ${GL_Dir}/lib/libassimp-5.dll app wrapper fw mc imgui)
+target_link_libraries(OpenGL_Minecraft ${GL_Dir}/lib/glfw3.dll ${GL_Dir}/lib/libassimp-5.dll app wrapper fw mc imgui)
