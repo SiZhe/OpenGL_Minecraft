@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.31)
-project(OpenGL_MC)
+project(OpenGL_Minecraft)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_FLAGS_RELEASE "-O3 -static -static-libgcc -static-libstdc++")

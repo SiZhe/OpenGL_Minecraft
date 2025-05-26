@@ -79,3 +79,5 @@
 > **如果在雪地中，湖面会结冰**
 > 
 ![冰面](https://github.com/SiZhe/readmeImage/blob/main/OpenGL_Minecraft/%E5%86%B0%E9%9D%A2.png)
+> 
+PS:你要把 OpenGL_Minecraft/OpenGL_MC中的 glfw3.dll 和 imgui.ini 保存在 cmake-build-debug 和 cmake-build-release 中才可顺利运行!
