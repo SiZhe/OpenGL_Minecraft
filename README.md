@@ -1,4 +1,5 @@
 # OpenGL_Minecraft
+(适用于win系统)
 用OpenGL写的"我的世界"小游戏
 
  - 你可以使用使用45种不用样式的方块；
